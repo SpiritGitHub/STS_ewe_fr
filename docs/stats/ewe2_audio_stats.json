@@ -1,0 +1,55 @@
+{
+  "root": "data/ewe2",
+  "rows_written": 22444,
+  "split_counts": {
+    "train": 22192,
+    "test": 66,
+    "dev": 186
+  },
+  "empty_text_rows": 0,
+  "missing_audio_rows": 0,
+  "missing_text_rows": 0,
+  "filename_pattern_bad": 0,
+  "books_top": [
+    [
+      "PSA",
+      1891
+    ],
+    [
+      "JER",
+      1187
+    ],
+    [
+      "EZK",
+      1087
+    ],
+    [
+      "ISA",
+      1026
+    ],
+    [
+      "EXO",
+      959
+    ],
+    [
+      "NUM",
+      909
+    ],
+    [
+      "GEN",
+      839
+    ],
+    [
+      "JOB",
+      832
+    ],
+    [
+      "MAT",
+      808
+    ],
+    [
+      "DEU",
+      758
+    ]
+  ]
+}

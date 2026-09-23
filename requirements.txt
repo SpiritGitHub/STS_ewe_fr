@@ -1,0 +1,49 @@
+## STS (Ewe↔Fr) — Full project requirements
+## Python 3.12 (Windows)
+##
+## Install:
+##   F:/STS/.venv/Scripts/python.exe -m pip install -r requirements.txt
+
+# -----------------
+# Backend (FastAPI)
+# -----------------
+fastapi==0.115.6
+uvicorn[standard]==0.30.6
+pydantic==2.10.4
+python-multipart==0.0.9
+
+# -------------------------
+# Data processing / reports
+# -------------------------
+numpy>=1.26
+pandas>=2.2
+tqdm>=4.66
+openpyxl>=3.1
+
+# --------------------------
+# ML / Training / Evaluation
+# --------------------------
+# Note: torch wheels differ by CUDA/CPU. If you hit install issues, install torch first
+# from https://pytorch.org/ then re-run the requirements install.
+torch>=2.2
+transformers>=4.45
+accelerate>=0.33
+datasets>=2.19
+evaluate>=0.4
+
+# Metrics
+sacrebleu>=2.4
+jiwer>=3.0
+
+# Tokenization / models
+sentencepiece>=0.2
+
+# Audio decoding for datasets/Whisper pipelines
+soundfile>=0.12
+
+# -------------------
+# Notebook / plotting
+# -------------------
+matplotlib>=3.8
+seaborn>=0.13
+ipykernel>=6.29

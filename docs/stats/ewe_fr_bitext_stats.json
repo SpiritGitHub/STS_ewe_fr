@@ -1,0 +1,14 @@
+{
+  "dataset": "michsethowusu/ewe-french_sentence-pairs",
+  "rows_total": 1039409,
+  "rows_written": 1039261,
+  "split_counts": {
+    "train": 935329,
+    "test": 51721,
+    "dev": 52211
+  },
+  "empty_dropped": 0,
+  "duplicates_dropped": 148,
+  "ee_char_mean": 40.98,
+  "fr_char_mean": 51.33
+}

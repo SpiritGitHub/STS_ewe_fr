@@ -1,0 +1,74 @@
+{
+  "out_tsv": "data/manifest_asr_global.tsv",
+  "total_rows": 41596,
+  "by_source": {
+    "ewe_asr": {
+      "dev": {
+        "rows": 1383,
+        "unique_speakers": 47,
+        "text_len_mean": 163.77,
+        "text_len_median": 163.0,
+        "text_len_max": 309,
+        "audio_ext_counts": {
+          ".mp3": 1383
+        }
+      },
+      "test": {
+        "rows": 2110,
+        "unique_speakers": 63,
+        "text_len_mean": 161.58,
+        "text_len_median": 160.0,
+        "text_len_max": 301,
+        "audio_ext_counts": {
+          ".mp3": 2110
+        }
+      },
+      "train": {
+        "rows": 15659,
+        "unique_speakers": 429,
+        "text_len_mean": 156.94,
+        "text_len_median": 153.0,
+        "text_len_max": 418,
+        "audio_ext_counts": {
+          ".mp3": 15659
+        }
+      }
+    },
+    "ewe2_openbible": {
+      "train": {
+        "rows": 22192,
+        "unique_speakers": 0,
+        "text_len_mean": 122.6,
+        "text_len_median": 115.0,
+        "text_len_max": 321,
+        "audio_ext_counts": {
+          ".flac": 22192
+        }
+      },
+      "test": {
+        "rows": 66,
+        "unique_speakers": 0,
+        "text_len_mean": 146.2,
+        "text_len_median": 144.5,
+        "text_len_max": 285,
+        "audio_ext_counts": {
+          ".flac": 66
+        }
+      },
+      "dev": {
+        "rows": 186,
+        "unique_speakers": 0,
+        "text_len_mean": 139.93,
+        "text_len_median": 135.0,
+        "text_len_max": 324,
+        "audio_ext_counts": {
+          ".flac": 186
+        }
+      }
+    }
+  },
+  "audio_exists_check": {
+    "checked": 500,
+    "missing": 0
+  }
+}
